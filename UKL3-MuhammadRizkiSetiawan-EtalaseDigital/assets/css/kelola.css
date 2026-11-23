@@ -1,0 +1,24 @@
+.card-custom { border: 1px solid var(--gray-200); border-radius: 20px; box-shadow: 0 6px 20px rgba(42,43,47,.05); background: #ffffff; }
+
+.page-head { display: flex; align-items: center; gap: 14px; }
+.page-head .icon-box {
+    width: 50px; height: 50px; border-radius: 16px;
+    background: var(--maroon-soft); color: var(--maroon);
+    display: flex; align-items: center; justify-content: center; font-size: 1.45rem;
+}
+
+.table-custom thead th {
+    background: var(--maroon-soft);
+    color: var(--maroon);
+    font-weight: 700; font-size: .8rem; letter-spacing: .5px; text-transform: uppercase;
+    border-bottom: 2px solid var(--maroon);
+    padding: .8rem .9rem;
+}
+.table-custom tbody td { padding: .85rem .9rem; border-color: var(--gray-200); }
+.table-custom tbody tr:hover { background: #fbf6f7; }
+.name-cell { display: flex; align-items: center; gap: 10px; }
+
+.badge-role { display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; }
+.badge-super_admin { background: var(--maroon); color: #ffffff; }
+.badge-admin       { background: var(--ink); color: #ffffff; }
+.badge-siswa       { background: var(--gray-200); color: var(--gray-700); }

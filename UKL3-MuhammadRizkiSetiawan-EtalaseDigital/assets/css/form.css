@@ -1,0 +1,22 @@
+body { background: var(--gray-100); }
+.card-form {
+    border: 0;
+    border-radius: 26px;
+    box-shadow: 0 18px 44px rgba(42, 43, 47, .12);
+    overflow: hidden;
+    position: relative;
+}
+.card-form::before {
+    content: ""; display: block; height: 8px; margin: -1.5rem -1.5rem 1.5rem;
+    background: linear-gradient(90deg, var(--maroon), var(--maroon-dark) 60%, var(--gray-700));
+}
+.form-head { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.form-head .icon-box {
+    width: 50px; height: 50px; border-radius: 16px;
+    background: var(--maroon-soft); color: var(--maroon);
+    display: flex; align-items: center; justify-content: center; font-size: 1.5rem;
+}
+.form-head h3 { margin: 0; font-weight: 800; }
+.preview-img { max-height: 150px; object-fit: cover; border-radius: 12px; }
+.preview-box { display: none; margin-top: 12px; border: 2px dashed var(--maroon); padding: 10px; border-radius: 14px; text-align: center; background: var(--maroon-soft); }
+.preview-box img { max-width: 100%; max-height: 220px; border-radius: 10px; object-fit: cover; }
